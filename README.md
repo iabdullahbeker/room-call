@@ -5,6 +5,6 @@ in this repo you can broadcast your video to peoples they can watch and listen t
   https://hungry-haibt-8ed57b.netlify.app/#host
   you will see id appeared above your video .
   
-##watchers
+## watchers
   https://hungry-haibt-8ed57b.netlify.app/?id={id that appeared with host }
   
