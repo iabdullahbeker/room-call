@@ -3,8 +3,12 @@ in this repo you can broadcast your video to peoples they can watch and listen t
 
 ## boardcaster link
   https://hungry-haibt-8ed57b.netlify.app/#host
-  you will see id appeared above your video .
+ ### you will see id appeared above your video .
   
 ## watchers
-  https://hungry-haibt-8ed57b.netlify.app/?id={id that appeared with host }
+  https://hungry-haibt-8ed57b.netlify.app/?id=1234564564
+### change "1234564564" with the id of host
+
+## note 
+    every time the host make a refresh to the page, the id will be changed
   
