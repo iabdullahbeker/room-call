@@ -1,4 +1,3 @@
-// const socket = io(window.location.origin);
 const localVideo = document.getElementById("local-video");
 const remoteVideo = document.getElementById("remote-video");
 var peer = new Peer();
