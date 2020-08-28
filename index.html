@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   <title>broadcast your video.</title>
+   <link
+     href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap"
+     rel="stylesheet"
+   />
+   <link rel="stylesheet" href="./styles.css" />
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+
+
+ </head>
+ <body>
+   <div class="container">
+     <header class="header">
+       <div class="logo-container">
+         <h1 class="logo-text">
+           Make<span class="logo-highlight"> Friend</span>
+         </h1>
+       </div>
+     </header>
+     <div class="content-container">
+       <div class="active-users-panel" id="active-user-container">
+         <button id="make-call" class="panel-title">Make a Call</button>
+
+        <h3 id="count-down"></h3>
+        <br>
+        <br>
+        <br>
+        <div id="local-Videos">
+                  <video autoplay muted class="local-video" id="local-video"></video>
+        </div>
+
+       </div>
+       <div class="video-chat-container">
+         <h2 class="talk-info" id="talking-with-info"> 
+           <!-- <span id="online-users" class="online">0 Online</span>
+           <span>&ThickSpace;&ThickSpace;,&ThickSpace;</span>
+           <span id="idle-users" class="idle">0 Idle</span> -->
+           <span id="host" class="online"></span>
+         </h2>
+         <div class="video-container">
+           <video  autoplay class="remote-video" id="remote-video"></video>
+         </div>
+       </div>
+     </div>
+   </div>
+   <script src="./scripts/peerjs.min.js"></script>
+
+   <script src="./scripts/peer.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+ </body>
+</html>
