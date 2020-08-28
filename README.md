@@ -9,6 +9,10 @@ in this repo you can broadcast your video to peoples they can watch and listen t
   https://hungry-haibt-8ed57b.netlify.app/?id=1234564564
 ### change "1234564564" with the id of host
 
-## note 
+## notes
     every time the host make a refresh to the page, the id will be changed
+    
+    only works on https
+    
+    not responsive
   
