@@ -10,9 +10,9 @@ in this repo you can broadcast your video to peoples they can watch and listen t
 ### change "1234564564" with the id of host
 
 ## notes
-    every time the host make a refresh to the page, the id will be changed
+   - every time the host make a refresh to the page, the id will be changed
     
-    only works on https
+   - only works on https
     
-    not responsive
+   - not responsive
   
